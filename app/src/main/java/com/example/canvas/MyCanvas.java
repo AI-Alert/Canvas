@@ -24,10 +24,12 @@ public class MyCanvas extends View {
         paint.setStrokeWidth(23);
 
         canvas.drawRect(200, 200, 550, 500, paint);
-        canvas.drawCircle(800, 350, 150, paint);
-        canvas.drawLine(200, 600, 1000, 600, paint);
-        canvas.drawLine(200, 700, 1000, 700, paint);
-        canvas.drawLine(200, 800, 1000, 800, paint);
+        canvas.drawRect(600, 200, 950, 500, paint);
+        canvas.drawCircle(360, 750, 170, paint);
+        canvas.drawCircle(780, 750, 170, paint);
+        canvas.drawLine(200, 1050, 950, 1050, paint);
+        canvas.drawLine(200, 1150, 950, 1150, paint);
+        canvas.drawLine(200, 1250, 950, 1250, paint);
 
     }
 }
